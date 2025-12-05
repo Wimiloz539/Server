@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.49.50.132
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1764631803926
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1764635931596
+  login: 1764635536592
+money: '0'
+last-account-name: Wimiloz
+logoutlocation:
+  world: 49ca25d2-3ad1-4064-8c6e-2f5a8b2c6fa3
+  world-name: Lobby
+  x: 0.1368412114146068
+  y: 60.0
+  z: -19.231336501778337
+  yaw: -176.63296508789062
+  pitch: 4.968258857727051
+lastlocation:
+  world: 49ca25d2-3ad1-4064-8c6e-2f5a8b2c6fa3
+  world-name: Lobby
+  x: 0.0
+  y: 65.0
+  z: 0.0
+  yaw: -180.0
+  pitch: 0.0

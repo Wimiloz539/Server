@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.171.245.8
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1764407883035
+  login: 1764407767787
+money: '0'
+last-account-name: marioxmessi
+lastlocation:
+  world: 2ebc7263-be55-468e-82a3-5a3fa3c5567f
+  world-name: world
+  x: 7.5
+  y: 68.0
+  z: 26.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 49ca25d2-3ad1-4064-8c6e-2f5a8b2c6fa3
+  world-name: Lobby
+  x: -4.204652134605585
+  y: 47.910283927711276
+  z: -90.27928847494466
+  yaw: -131.099853515625
+  pitch: 14.249905586242676

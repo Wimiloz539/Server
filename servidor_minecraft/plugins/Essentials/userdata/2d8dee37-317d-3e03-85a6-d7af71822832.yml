@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.50.145.246
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1764949956837
+  login: 1764949357823
+money: '0'
+last-account-name: F4zeX21
+lastlocation:
+  world: 98b5dfff-79f6-4aef-88ff-5d4a04208665
+  world-name: world
+  x: 1.5
+  y: 68.0
+  z: 17.5
+  yaw: -142.50820922851562
+  pitch: 1.9342191219329834
+logoutlocation:
+  world: 98b5dfff-79f6-4aef-88ff-5d4a04208665
+  world-name: world
+  x: 183.82499107920313
+  y: 134.5
+  z: -307.95707799680366
+  yaw: 8.54559326171875
+  pitch: 44.92633056640625

@@ -1,0 +1,532 @@
+[15:39:06] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[15:39:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[15:39:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:39:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 23 plugins
+[15:39:13] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - FancyNpcs (2.8.1)
+[15:39:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (22):
+ - CommandSigns (2.2.0), ConditionalEvents (4.72.1), CustomCommands (4.3.0), DecentHolograms (2.9.8), DiscordSRV (1.30.1), Essentials (2.21.2), EssentialsSpawn (2.21.2), FastAsyncWorldEdit (2.14.3-SNAPSHOT-1228+0a03dfa), GCore (8.50.0), LastLocation (3.0), Multiverse-Core (5.3.4), Multiverse-Inventories (5.2.1), Multiverse-SignPortals (5.0.1), PlaceholderAPI (2.11.7), SkinsRestorer (15.9.0), SternalBoard (2.3.2), TAB (5.3.2), Vault (1.7.3-b131), ViaVersion (5.5.0), WorldGuard (7.0.14+2339-43997ec), getPing (1.0), voicechat (2.6.6)
+[15:39:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:39:20] [ServerMain/INFO]: Loaded 1407 recipes
+[15:39:20] [ServerMain/INFO]: Loaded 1520 advancements
+[15:39:20] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:39:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 509.6ms
+[15:39:22] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[15:39:22] [Server thread/INFO]: Loading properties
+[15:39:22] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[15:39:22] [Server thread/WARN]: Couldn't load server icon
+java.lang.IllegalArgumentException: BufferedImage must be 64 pixels wide (675)
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:191) ~[guava-33.3.1-jre.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.loadServerIcon0(CraftServer.java:2614) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.CraftServer.loadServerIcon0(CraftServer.java:2604) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.CraftServer.loadIcon(CraftServer.java:1168) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:488) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:140) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:165) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:39:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:39:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:39:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:39:23] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:39:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:39:23] [Server thread/INFO]: Default game type: SURVIVAL
+[15:39:23] [Server thread/INFO]: Generating keypair
+[15:39:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:39:23] [Server thread/INFO]: Using epoll channel type
+[15:39:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:39:23] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:39:25] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[15:39:25] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[15:39:25] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.14.3-SNAPSHOT-1228+0a03dfa
+[15:39:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@385c7d67]
+[15:39:26] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.4
+[15:39:26] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[15:39:26] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[15:39:26] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.0
+[15:39:26] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.0 is now loaded. Registering protocol transformers and injecting...
+[15:39:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:39:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:39:27] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.30.1
+[15:39:27] [Server thread/INFO]: [GCore] Loading server plugin GCore v8.50.0
+[15:39:27] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.2.1
+[15:39:27] [Server thread/INFO]: [getPing] Loading server plugin getPing v1.0
+[15:39:27] [Server thread/INFO]: [LastLocation] Loading server plugin LastLocation v3.0
+[15:39:27] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2
+[15:39:27] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.3.2
+[15:39:27] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.72.1
+[15:39:27] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.6
+[15:39:27] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.0
+[15:39:27] [Server thread/INFO]: [CustomCommands] Loading server plugin CustomCommands v4.3.0
+[15:39:27] [Server thread/INFO]: [SternalBoard] Loading server plugin SternalBoard v2.3.2
+[15:39:27] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.8
+[15:39:27] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.8.1
+[15:39:27] [Server thread/INFO]: [Multiverse-SignPortals] Loading server plugin Multiverse-SignPortals v5.0.1
+[15:39:27] [Server thread/INFO]: [CommandSigns] Loading server plugin CommandSigns v2.2.0
+[15:39:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:39:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:39:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:39:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:39:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:39:28] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.14.3-SNAPSHOT-1228+0a03dfa
+[15:39:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[15:39:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[15:39:28] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:39:28] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:39:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_6.PaperweightFaweAdapter as the Bukkit adapter
+[15:39:29] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.0
+[15:39:30] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1 build(s) out of date.
+You are running build 1228, the latest version is build 1229.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[15:39:30] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[15:39:31] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[15:39:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.0]
+[15:39:31] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[15:39:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:39:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:39:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:39:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:39:31] [Server thread/INFO]: Preparing level "Lobby"
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.0
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 1565b8f
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[15:39:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[15:39:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:39:31] [Server thread/INFO]: Time elapsed: 3 ms
+[15:39:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:39:31] [Server thread/INFO]: Preparing spawn area: 100%
+[15:39:32] [Server thread/INFO]: Preparing spawn area: 100%
+[15:39:32] [Server thread/INFO]: Time elapsed: 882 ms
+[15:39:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:39:32] [Server thread/INFO]: Preparing spawn area: 100%
+[15:39:32] [Server thread/INFO]: Time elapsed: 165 ms
+[15:39:32] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[15:39:32] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:39:32] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.4
+[15:39:33] [Server thread/INFO]: Preparing start region for dimension minecraft:kitpvp
+[15:39:33] [Server thread/INFO]: Preparing spawn area: 0%
+[15:39:33] [Server thread/INFO]: Time elapsed: 316 ms
+[15:39:33] [Server thread/INFO]: Preparing start region for dimension minecraft:world
+[15:39:33] [Server thread/INFO]: Preparing spawn area: 0%
+[15:39:34] [Server thread/INFO]: Time elapsed: 309 ms
+[15:39:34] [Server thread/INFO]: Preparing start region for dimension minecraft:world_the_end
+[15:39:34] [Server thread/INFO]: Preparing spawn area: 0%
+[15:39:34] [Server thread/INFO]: Time elapsed: 137 ms
+[15:39:34] [Server thread/INFO]: Preparing start region for dimension minecraft:world_nether
+[15:39:34] [Server thread/INFO]: Preparing spawn area: 0%
+[15:39:34] [Server thread/INFO]: Time elapsed: 227 ms
+[15:39:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.3.4]
+[15:39:35] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[15:39:35] [Server thread/INFO]: [Multiverse-Core] Version 5.3.4 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[15:39:35] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[15:39:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[15:39:35] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:39:35] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[15:39:35] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[15:39:36] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[15:39:36] [Server thread/INFO]: [Essentials] Using locale en
+[15:39:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:39:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:39:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[15:39:36] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:39:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby) TNT ignition is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby) Lighters are PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby) Lava fire is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby) Fire spread is UNRESTRICTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby'
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby_nether) TNT ignition is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lighters are PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Lava fire is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby_nether) Fire spread is UNRESTRICTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_nether'
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) TNT ignition is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lighters are PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Lava fire is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (Lobby_the_end) Fire spread is UNRESTRICTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Lobby_the_end'
+[15:39:37] [Server thread/INFO]: [WorldGuard] (KITPVP) TNT ignition is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (KITPVP) Lighters are PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (KITPVP) Lava fire is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (KITPVP) Fire spread is UNRESTRICTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'KITPVP'
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:39:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:39:37] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:39:37] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.0
+[15:39:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[15:39:37] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.1
+[15:39:37] [Server thread/INFO]: [GCore] Enabling GCore v8.50.0
+[15:39:37] [Server thread/INFO]: [GCore-migration] Already processed v7 -> v8 (config)
+[15:39:37] [Server thread/INFO]: [GCore-migration] Already processed v7 -> v8 (data)
+[15:39:37] [Server thread/INFO]: [GCore-migration] Already processed v8.4 -> v8.5
+[15:39:37] [Server thread/INFO]: [GCore-migration] Already processed v8.8 -> v8.9
+[15:39:37] [Server thread/INFO]: [GCore-migration] Already processed v8.23 -> v8.24
+[15:39:37] [Server thread/INFO]: [GCore-migration] Already processed v8.24 -> v8.25
+[15:39:37] [Server thread/INFO]: [GCore-migration] Already processed v8.29 -> v8.30
+[15:39:37] [Server thread/INFO]: [GCore-8.50.0] Found server version MC_1_21_R1
+[15:39:37] [Server thread/INFO]: [GCore-8.50.0] Loading materials...
+[15:39:37] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[15:39:38] [pool-71-thread-1/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 17 commits! Get the latest build at your favorite distribution center.
+
+Modrinth: https://modrinth.com/plugin/discordsrv/
+Github: https://github.com/DiscordSRV/DiscordSRV/releases/
+Direct Download: https://get.discordsrv.com/
+
+[15:39:38] [Server thread/INFO]: [GCore-8.50.0] Loading sounds...
+[15:39:38] [Server thread/WARN]: java.lang.NullPointerException: Cannot read the array length because "<local2>" is null
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.lib.object.ObjectUtils.safeValueOf(ObjectUtils.java:32)
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.lib.compatibility.sound.Sounds.loadElementConfigAndCreateData(Sounds.java:23)
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.lib.compatibility.sound.Sounds.loadElementConfigAndCreateData(Sounds.java:14)
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.lib.compatibility.variants.Variants.loadData(Variants.java:206)
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.lib.compatibility.variants.Variants.reload(Variants.java:131)
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.ConfigGCore.loadVariants(ConfigGCore.java:318)
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.ConfigGCore.doLoad(ConfigGCore.java:186)
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.lib.GPluginConfig.load(GPluginConfig.java:74)
+[15:39:38] [Server thread/WARN]: 	at GCore.jar//com.guillaumevdn.gcore.lib.GPlugin.onEnable(GPlugin.java:380)
+[15:39:38] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[15:39:38] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[15:39:38] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[15:39:38] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[15:39:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
+[15:39:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+[15:39:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743)
+[15:39:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
+[15:39:38] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280)
+[15:39:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
+[15:39:38] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[15:39:38] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:39:38] [Server thread/INFO]: [GCore-8.50.0] Couldn't register sound ENCHANT_THORNS_HIT : variant sound ENCHANT_THORNS_HIT has invalid >=MC_1_9_R2 data 'ENCHANT_THORNS_HIT' (don't exist even though we're running this version)
+[15:39:38] [Server thread/INFO]: [GCore-8.50.0] Disabling plugin - you can re-try with /gcore
+[15:39:38] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.2.1
+[15:39:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.2.1]
+[15:39:39] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[15:39:39] [Server thread/INFO]: [Multiverse-Inventories] Version 5.2.1 (API v5.2) Enabled - By dumptruckman and benwoo1110
+[15:39:39] [Server thread/INFO]: [getPing] Enabling getPing v1.0
+[15:39:39] [Server thread/INFO]: [LastLocation] Enabling LastLocation v3.0
+[15:39:39] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2
+[15:39:39] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:39:39] [Server thread/INFO]: [TAB] Enabling TAB v5.3.2
+[15:39:39] [Server thread/INFO]: [TAB] Enabled in 235ms
+[15:39:39] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.72.1
+[15:39:39] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+[15:39:39] [Server thread/WARN]:  in 'reader', line 38, column 9:
+[15:39:39] [Server thread/WARN]:             - 'cancel_event: true'
+[15:39:39] [Server thread/WARN]:             ^
+[15:39:39] [Server thread/WARN]: expected <block end>, but found '?'
+[15:39:39] [Server thread/WARN]:  in 'reader', line 40, column 9:
+[15:39:39] [Server thread/WARN]:             event10:
+[15:39:39] [Server thread/WARN]:             ^
+[15:39:39] [Server thread/WARN]: 
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.configs.model.CommonConfig.registerConfig(CommonConfig.java:63)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.configs.DataFolderConfigManager.getConfigs(DataFolderConfigManager.java:52)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.configs.ConfigsManager.getEventConfigs(ConfigsManager.java:252)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.configs.ConfigsManager.configureEvents(ConfigsManager.java:52)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.configs.ConfigsManager.configure(ConfigsManager.java:36)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.ConditionalEvents.onEnable(ConditionalEvents.java:66)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[15:39:39] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[15:39:39] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[15:39:39] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:39:39] [Server thread/WARN]: Caused by: while parsing a block collection
+[15:39:39] [Server thread/WARN]:  in 'reader', line 38, column 9:
+[15:39:39] [Server thread/WARN]:             - 'cancel_event: true'
+[15:39:39] [Server thread/WARN]:             ^
+[15:39:39] [Server thread/WARN]: expected <block end>, but found '?'
+[15:39:39] [Server thread/WARN]:  in 'reader', line 40, column 9:
+[15:39:39] [Server thread/WARN]:             event10:
+[15:39:39] [Server thread/WARN]:             ^
+[15:39:39] [Server thread/WARN]: 
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntryKey.produce(ParserImpl.java:548)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:277)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+[15:39:39] [Server thread/WARN]: 	... 20 more
+[15:39:39] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+[15:39:39] [Server thread/WARN]:  in 'reader', line 38, column 9:
+[15:39:39] [Server thread/WARN]:             - 'cancel_event: true'
+[15:39:39] [Server thread/WARN]:             ^
+[15:39:39] [Server thread/WARN]: expected <block end>, but found '?'
+[15:39:39] [Server thread/WARN]:  in 'reader', line 40, column 9:
+[15:39:39] [Server thread/WARN]:             event10:
+[15:39:39] [Server thread/WARN]:             ^
+[15:39:39] [Server thread/WARN]: 
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.configs.model.CommonConfig.registerConfig(CommonConfig.java:63)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.configs.DataFolderConfigManager.getConfigs(DataFolderConfigManager.java:52)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.configs.ConfigsManager.getEventConfigs(ConfigsManager.java:252)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.managers.VerifyManager.verifyEvents(VerifyManager.java:51)
+[15:39:39] [Server thread/WARN]: 	at ConditionalEvents-4.72.1.jar//ce.ajneb97.ConditionalEvents.onEnable(ConditionalEvents.java:72)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[15:39:39] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[15:39:39] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
+[15:39:39] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[15:39:39] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:39:39] [Server thread/WARN]: Caused by: while parsing a block collection
+[15:39:39] [Server thread/WARN]:  in 'reader', line 38, column 9:
+[15:39:39] [Server thread/WARN]:             - 'cancel_event: true'
+[15:39:39] [Server thread/WARN]:             ^
+[15:39:39] [Server thread/WARN]: expected <block end>, but found '?'
+[15:39:39] [Server thread/WARN]:  in 'reader', line 40, column 9:
+[15:39:39] [Server thread/WARN]:             event10:
+[15:39:39] [Server thread/WARN]:             ^
+[15:39:39] [Server thread/WARN]: 
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntryKey.produce(ParserImpl.java:548)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:277)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+[15:39:39] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[15:39:39] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+[15:39:39] [Server thread/WARN]: 	... 19 more
+[15:39:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: conditionalevents [4.72.1]
+[15:39:39] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.72.1
+[15:39:39] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[15:39:39] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.6
+[15:39:39] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
+[15:39:39] [Server thread/INFO]: [voicechat] Compatibility version 20
+[15:39:39] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[15:39:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.6]
+[15:39:39] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[15:39:39] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[15:39:39] [Server thread/INFO]: [CustomCommands] Enabling CustomCommands v4.3.0
+[15:39:39] [Server thread/INFO]: [CustomCommands-migration] Already processed v3 -> v4 (config)
+[15:39:39] [Server thread/INFO]: [CustomCommands-migration] Already processed v3 -> v4 (data)
+[15:39:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gcore [1.0.0]
+[15:39:39] [Server thread/INFO]: [CustomCommands-4.3.0] Enabled integration for PlaceholderAPI
+[15:39:40] [Server thread/INFO]: [CustomCommands-4.3.0] Errors were found when loading CustomCommand spawncost :
+[15:39:40] [Server thread/INFO]: [CustomCommands-4.3.0] - key VAULT at path patterns.a.currency_cost isn't a valid currency
+[15:39:40] [Server thread/INFO]: [CustomCommands-4.3.0] Successfully loaded 5 custom commands : complex, helpserver, spawn, spawnconditions, spawncost
+[15:39:40] [Server thread/INFO]: [CustomCommands-4.3.0] Loading texts...
+[15:39:40] [Server thread/INFO]: [CustomCommands-4.3.0] Loaded 52 missing texts from default lang for customcommands_editor.yml : descriptionConditionType, descriptionCustomCommandPatternCurrencyCost, descriptionConditionScoreboardTagTagName, descriptionActionGiveItemItem, descriptionActionExecuteCommmandsAsPlayer, descriptionCustomCommandPatterns, descriptionActionChangeGamemodeGamemode, descriptionConditionLogicScoreboardValueScoreName, descriptionConditionMustTake, descriptionConditionPositionPosition, descriptionConditionGenericLogicOnlineGoal, descriptionConditionInventoryFreeForItemsItems, descriptionCustomCommandPatternActions, descriptionActionOnToggleOn, descriptionCustomCommandPatternPermission, descriptionConditionGenericLogicLogic, descriptionConditionsConditions, descriptionConditionYearTimeStart, descriptionConditionGameTimeStartTicks, descriptionCustomCommandAliases, descriptionConditionPermissionPermission, descriptionConditionScoreboardTagMustHave, descriptionConditionLogicScoreboardValueObjectiveName, descriptionConditionLogicMoneyCurrency, descriptionConditionDayTimeEnd, descriptionActionTypeTarget, descriptionConditionPermissionOnlineGoal, descriptionCustomCommandPatternPermissionErrorMessage, descriptionCustomCommandPatternCooldown, descriptionCustomCommandPatternDescription, descriptionActionTeleportLocation, descriptionConditionErrorMessage, descriptionConditionDayTimeStart, descriptionActionWaitDuration, descriptionActionExecuteCommmandsCommands, descriptionConditionsErrorMessage, descriptionConditionsMatchAmount, descriptionConditionsNoMatchAmount, descriptionCustomCommandPatternWorlds, descriptionConditionGameTimeEndTicks, descriptionCustomCommandPatternToggleMode, descriptionConditionMonthTimeStart, descriptionCustomCommandPatternConditions, descriptionActionType, descriptionCustomCommandPatternPattern, descriptionActionNotifyNotify, descriptionConditionItemsItems, descriptionConditionWeekTimeStart, descriptionConditionYearTimeEnd, descriptionConditionMonthTimeEnd, descriptionConditionWeekTimeEnd, descriptionConditionGenericLogicLogicPlaceholder
+[15:39:40] [Server thread/INFO]: [CustomCommands-4.3.0] Loaded 12 missing texts from default lang for customcommands.yml : messageInvalidInputStringSize, messageUnauthorizedWorld, messageInvalidInputPhrase, messageUnknownCommandClosest, messageCooldown, messageNoHelp, messageInvalidInputDouble, messageInvalidInputPlayer, commandDescriptionCustomcommandsEdit, messageInvalidInputOfflinePlayer, messageInvalidInputInteger, messageUnknownCommand
+[15:39:40] [Server thread/INFO]: [CustomCommands-4.3.0] Successfully enabled
+[15:39:40] [Server thread/INFO]: [SternalBoard] Enabling SternalBoard v2.3.2
+[15:39:40] [Server thread/INFO]: [INFO] Starting SternalBoard Plugin
+[15:39:40] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.8
+[15:39:40] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_21_R5 (1.21.8).
+[15:39:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
+[15:39:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R5' loaded!
+[15:39:40] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[15:39:40] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
+[15:39:40] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.8.1
+[15:39:40] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[15:39:41] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.8.1) has been enabled.
+[15:39:41] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v5.0.1
+[15:39:41] [Server thread/INFO]: [Multiverse-SignPortals 5.0.1]  Enabled - By Rigby and fernferret
+[15:39:41] [Server thread/INFO]: [CommandSigns] Enabling CommandSigns v2.2.0
+[15:39:41] [Server thread/INFO]: [CommandSigns] Plugin vault detected
+[15:39:41] [Server thread/INFO]: [CommandSigns] Vault economy [EssentialsX Economy] linked with command signs !
+[15:39:41] [Server thread/INFO]: [CommandSigns] If this plugin is useful to you, you can make a donation at: https://www.paypal.me/nokorbis
+[15:39:41] [Server thread/INFO]: [spark] Starting background profiler...
+[15:39:42] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:39:42] [Server thread/INFO]: Done preparing level "Lobby" (11.264s)
+[15:39:42] [Server thread/ERROR]: Couldn't load server icon
+java.lang.IllegalStateException: Must be 64 pixels wide
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:513) ~[guava-33.3.1-jre.jar:?]
+	at net.minecraft.server.MinecraftServer.lambda$loadStatusIcon$17(MinecraftServer.java:1459) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.util.Optional.flatMap(Optional.java:289) ~[?:?]
+	at net.minecraft.server.MinecraftServer.loadStatusIcon(MinecraftServer.java:1456) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1169) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:39:42] [Server thread/INFO]: Running delayed init tasks
+[15:39:42] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:39:42] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[15:39:42] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[15:39:42] [Craft Scheduler Thread - 0 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:39:42] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[15:39:42] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:39:42] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[15:39:42] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.30.1
+[15:39:42] [ForkJoinPool.commonPool-worker-1/ERROR]: [PlaceholderAPI] Failed to load expansion file: /workspaces/Server/servidor_minecraft/plugins/PlaceholderAPI/expansions/Expansion-statistic.jar
+java.lang.IllegalStateException: The plugin classloader for DiscordSRV has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:225) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:177) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:152) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SpigotPluginClassLoaderGroup.lookupClass(SpigotPluginClassLoaderGroup.java:43) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.SimpleListPluginClassLoaderGroup.getClassByName(SimpleListPluginClassLoaderGroup.java:37) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.entrypoint.classloader.group.LockingClassLoaderGroup.getClassByName(LockingClassLoaderGroup.java:34) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:195) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:172) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:580) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at PlaceholderAPI-2.11.7.jar/me.clip.placeholderapi.util.FileUtil.findClass(FileUtil.java:62) ~[PlaceholderAPI-2.11.7.jar:?]
+	at PlaceholderAPI-2.11.7.jar/me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:421) ~[PlaceholderAPI-2.11.7.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:517) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:472) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:220) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	... 19 more
+[15:39:42] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.5.0
+[15:39:42] [Server thread/INFO]: Done (38.222s)! For help, type "help"
+[15:39:42] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[15:39:42] [Server thread/INFO]: [voicechat] Loading plugins
+[15:39:42] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[15:39:42] [Server thread/INFO]: [voicechat] Initializing plugins
+[15:39:42] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[15:39:42] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[15:39:42] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'seen-showing.gl.at.ply.gg'
+[15:39:42] [Craft Scheduler Thread - 5 - DecentHolograms/INFO]: [DecentHolograms] Loaded 5 holograms!
+[15:39:42] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 33127
+[15:39:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[15:39:43] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[15:39:43] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion gps due to a missing plugin: GPS
+[15:39:43] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[15:39:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[15:39:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
+[15:39:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[15:39:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.1.0]
+[15:39:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[15:39:43] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion ontime due to a missing plugin: OnTime
+[15:39:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: Animations [1.0.5]
+[15:39:43] [Server thread/INFO]: 7 placeholder hook(s) registered!
+[15:41:42] [User Authenticator #0/INFO]: UUID of player F4zeX21 is 2d8dee37-317d-3e03-85a6-d7af71822832
+[15:41:42] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Essentials, WorldGuard]
+[15:41:44] [TAB Processing Thread/INFO]: [TAB] [WARN] Player F4zeX21's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[15:41:44] [Server thread/INFO]: F4zeX21 joined the game
+[15:41:44] [Server thread/INFO]: F4zeX21[/127.142.252.102:49297] logged in with entity id 100 at ([world]186.48749155158654, 131.5, -297.81899110628933)
+[15:41:44] [Server thread/INFO]: [voicechat] Received secret request of F4zeX21 (20)
+[15:41:44] [Server thread/INFO]: [voicechat] Sent secret to F4zeX21
+[15:42:36] [User Authenticator #0/INFO]: UUID of player F4zeX21 is 2d8dee37-317d-3e03-85a6-d7af71822832
+[15:42:36] [Server thread/INFO]: F4zeX21 lost connection: You logged in from another location
+[15:42:36] [Server thread/INFO]: [voicechat] Disconnecting client F4zeX21
+[15:42:36] [Server thread/INFO]: F4zeX21 left the game
+[15:42:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Player F4zeX21's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[15:42:37] [Server thread/INFO]: F4zeX21 joined the game
+[15:42:37] [Server thread/INFO]: F4zeX21[/127.50.145.246:56235] logged in with entity id 114 at ([Lobby]-0.3043480703251335, 60.0, -27.490585785004484)
+[15:42:37] [Server thread/INFO]: [voicechat] Received secret request of F4zeX21 (20)
+[15:42:37] [Server thread/INFO]: [voicechat] Sent secret to F4zeX21
+[15:42:54] [Server thread/INFO]: F4zeX21 issued server command: /mvtp world
+[15:49:48] [Server thread/INFO]: Villager Villager['Villager'/123, uuid='b3f09675-524c-4c2e-95e3-492111e801b1', l='ServerLevel[world]', x=172.07, y=121.00, z=-296.25, cpos=[10, -19], tl=8248, v=true] died, message: 'Villager was slain by Zombie'
+[15:50:19] [Server thread/INFO]: Villager Villager['Leatherworker'/115, uuid='30ce816f-ab7f-445a-bb00-769173d04256', l='ServerLevel[world]', x=185.70, y=123.00, z=-266.68, cpos=[11, -17], tl=8886, v=true] died, message: 'Leatherworker was slain by Zombie'
+[15:52:36] [Server thread/INFO]: F4zeX21 lost connection: Disconnected
+[15:52:36] [Server thread/INFO]: [voicechat] Disconnecting client F4zeX21
+[15:52:36] [Server thread/INFO]: F4zeX21 left the game

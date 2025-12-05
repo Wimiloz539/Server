@@ -1,0 +1,14 @@
+location: Lobby:-7.500:64.625:-31.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&4&lPROXIMAMENTE'
+    height: 0.3
+  - content: Modalidad en Desarrollo
+    height: 0.3
+  actions: {}

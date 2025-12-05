@@ -1,0 +1,154 @@
+npcs:
+  cccf37b5-a5e4-4f7a-9a99-374b0f3c240f:
+    name: survival
+    creator: 1d190665-56d0-353e-a41a-4bbcb40ebbbb
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: Lobby
+      x: 0.5
+      y: 61.0
+      z: -33.5
+      yaw: -1.3100204
+      pitch: -1.3690245
+    showInTab: false
+    spawnEntity: true
+    collidable: false
+    glowing: true
+    glowingColor: green
+    turnToPlayer: false
+    turnToPlayerDistance: 10
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: 2147483647
+    skin:
+      mirrorSkin: false
+      identifier: Wimiloz
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: '&b&lSURVIVAL &fConectándote al survival...'
+        '2':
+          action: player_command_as_op
+          value: mvtp world
+  cc1002e6-fc42-44fd-a9a0-e86104ce6ce0:
+    name: Proximamente1
+    creator: 1d190665-56d0-353e-a41a-4bbcb40ebbbb
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: Lobby
+      x: -3.5
+      y: 61.0
+      z: -32.5
+      yaw: -0.12200928
+      pitch: -2.6506135
+    showInTab: false
+    spawnEntity: true
+    collidable: false
+    glowing: true
+    glowingColor: yellow
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: 2147483647
+    skin:
+      identifier: F4zeX21
+      variant: AUTO
+      mirrorSkin: false
+  632d8681-d75e-4287-8f52-10e7b7dc08ec:
+    name: Proximamente
+    creator: 1d190665-56d0-353e-a41a-4bbcb40ebbbb
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: Lobby
+      x: 4.5
+      y: 61.0
+      z: -32.5
+      yaw: -0.2455797
+      pitch: -2.2077117
+    showInTab: false
+    spawnEntity: true
+    collidable: false
+    glowing: true
+    glowingColor: dark_red
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: 2147483647
+    skin:
+      identifier: MArCos33342Y
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      on_fire: 'false'
+      silent: 'false'
+      shaking: 'false'
+      on_ground: 'false'
+      use_item: main_hand
+      pose: standing
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: '&4&lPRACTICE &fConectándote al practice...'
+        '2':
+          action: player_command_as_op
+          value: mvtp KITPVP
+  f514dd0a-3d6c-4976-ae5e-2f775182c2b6:
+    name: Proximamente3
+    creator: 1d190665-56d0-353e-a41a-4bbcb40ebbbb
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: Lobby
+      x: 8.5
+      y: 61.0
+      z: -31.5
+      yaw: -2.1810303
+      pitch: -2.8250742
+    showInTab: false
+    spawnEntity: true
+    collidable: false
+    glowing: true
+    glowingColor: dark_red
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: 2147483647
+    skin:
+      identifier: marioxmessi
+      variant: AUTO
+      mirrorSkin: false
+  0449ffd0-c84a-4841-b4b0-ed0d630df79a:
+    name: Proximamente2
+    creator: 1d190665-56d0-353e-a41a-4bbcb40ebbbb
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: Lobby
+      x: -7.5
+      y: 61.0
+      z: -31.5
+      yaw: -0.25073242
+      pitch: -2.4159129
+    showInTab: false
+    spawnEntity: true
+    collidable: false
+    glowing: true
+    glowingColor: dark_red
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: 2147483647
+    skin:
+      identifier: nachx2332
+      variant: AUTO
+      mirrorSkin: false

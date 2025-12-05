@@ -1,0 +1,37 @@
+# Ping threshold for color coding
+ping_threshold: 60
+
+# Colors for ping
+color_good: "<#9BCF53>"  # Color for good ping
+color_bad: "<#FF0000>"   # Color for bad ping
+
+# Whether to send ping messages to chat in addition to the action bar
+send_to_chat: false
+
+# Cooldown for right-click checks (in milliseconds)
+right_click_cooldown: 3000  # 3 seconds
+
+# Whether to enable the cooldown message
+cooldown_message_enabled: true
+
+# Action Bar Ping Display
+action_bar_ping: "<green>Your ping: <color><ping>ms</color>"
+
+# Boss Bar Ping Display
+boss_bar_ping: "<green>Your ping: <color><ping>ms</color>"
+
+# Leaderboard Settings
+leaderboard:
+  title: "<green>Top %count% Players with Best Ping:</green>"
+  entry_format: "<green>%position%. %player%: <color>%ping%ms</color>"
+  max_entries: 10  # Maximum number of players to display in the leaderboard
+
+# Messages
+messages:
+  console_error: "<red>Only players can use this command!"
+  no_permission: "<red>You do not have permission to use this command!"
+  player_not_found: "<red>Player not found or offline!"
+  self_ping: "<green>Your ping is <color><ping>ms!</green>"
+  other_ping: "<green><target>'s ping is <color><ping>ms!</green>"
+  reload_success: "<green>Configuration reloaded successfully!"
+  cooldown_message: "<red>Please wait before checking ping again!"

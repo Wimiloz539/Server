@@ -1,0 +1,198 @@
+#
+# SternalBoard - Scoreboard plugin for Spigot and paper servers
+#
+# Version: 2.3.2
+# Author: xism4
+#
+# Support discord: https://discord.com/invite/jmWk4pR2SG
+# Spigot: https://www.spigotmc.org/resources/sternalboard-lightweight-animated-scoreboard.89245/
+# Polymart: https://polymart.org/resource/sternalboard-lightweight.1379
+# MC-Market: https://www.mc-market.org/resources/20395/
+# GitHub: https://github.com/ShieldCommunity/SternalBoard
+#
+# If you have any problem, contact us in discord or report issue in GitHub section
+# Issues: https://github.com/ShieldCommunity/SternalBoard/issues
+
+settings:
+  # Select scoreboard mode: NORMAL, WORLD, PERMISSION and WORLDGUARD
+  #
+  # NORMAL - Shows the scoreboard for all the players
+  # WORLD - Shows the scoreboard filtering worlds
+  # PERMISSION - Shows the scoreboard checking permissions
+  # worldguard - Shows the scoreboard checking permissions
+  mode: world
+  scoreboard-interval-update: 20
+  scoreboard:
+    title: '&#FB0000&lW&#ED0000&li&#DE0000&lz&#D00000&lC&#C20000&lr&#B40000&la&#A50000&lf&#970000&lt'
+    lines:
+      - '&8&m+----------------+'
+      - ''
+      - '&#0D00FB&lP&#0D13F2&ll&#0D27E9&la&#0E3AE1&ly&#0E4ED8&le&#0E61CF&lr:'
+      - '&f● &a&lɴɪᴄᴋ: &b%player_name%'
+      - '&f● &e&lᴛɪᴍᴇ: &b%statistic_hours_played%h'
+      - '&f● &4&lᴅᴇᴀᴛʜꜱ: &e%statistic_deaths%'
+      - ''
+      - '&#0D00FB&lS&#0D13F2&le&#0D27E9&lr&#0E3AE1&lv&#0E4ED8&le&#0E61CF&lr:'
+      - '&f● &7&lᴍᴏᴅᴏ: &bSurvival'
+      - '&f● &7&lᴘɪɴɢ: &b%player_ping%'
+      - '&f● &7&lᴘʟᴀʏᴇʀꜱ: &b%server_online_world%'
+      - ''
+
+  #Option to disable some scoreboards from worlds
+  world-blacklist:
+    enabled: true
+    worlds:
+      - "your-world"
+      - "your-world2"
+
+#
+# Tab-list system configuration
+#
+# Supports PlaceholderAPI
+tab-list:
+  enabled: false
+  update-interval: 20
+  header:
+    - "&eShield&6Community &7| &aTest server"
+    - "Do you like the plugin? Give a review!"
+  footer:
+    - "&6Download it now!"
+    - "&fAvailable on SpigotMC"
+#
+# Scoreboard per world configuration
+#
+# If world no exist or is not configured, will use scoreboard section
+scoreboard-world:
+  'world':
+    title: '&#FB0000&lW&#ED0000&li&#DE0000&lz&#D00000&lC&#C20000&lr&#B40000&la&#A50000&lf&#970000&lt'
+    lines:
+      - '&8&m+----------------+'
+      - ''
+      - '&#0D00FB&lP&#0D13F2&ll&#0D27E9&la&#0E3AE1&ly&#0E4ED8&le&#0E61CF&lr:'
+      - '&f● &a&lɴɪᴄᴋ: &b%player_name%'
+      - '&f● &e&lᴛɪᴍᴇ: &b%statistic_hours_played%h'
+      - '&f● &4&lᴅᴇᴀᴛʜꜱ: &e%statistic_deaths%'
+      - ''
+      - '&#0D00FB&lS&#0D13F2&le&#0D27E9&lr&#0E3AE1&lv&#0E4ED8&le&#0E61CF&lr:'
+      - '&f● &7&lᴍᴏᴅᴏ: &bSurvival'
+      - '&f● &7&lᴘɪɴɢ: &b%player_ping%'
+      - '&f● &7&lᴘʟᴀʏᴇʀꜱ: &b%server_online_world%'
+      - ''
+scoreboard-world:
+  'Lobby':
+    title: '&#FB0000&lW&#ED0000&li&#DE0000&lz&#D00000&lC&#C20000&lr&#B40000&la&#A50000&lf&#970000&lt'
+    lines:
+      - '&8&m+----------------+'
+      - ''
+      - '&#0D00FB&lP&#0D13F2&ll&#0D27E9&la&#0E3AE1&ly&#0E4ED8&le&#0E61CF&lr:'
+      - '&f● &a&lɴɪᴄᴋ: &b%player_name%'
+      - '&f● &e&lᴛɪᴍᴇ: &b%statistic_hours_played%h'
+      - ''
+      - '&#0D00FB&lS&#0D13F2&le&#0D27E9&lr&#0E3AE1&lv&#0E4ED8&le&#0E61CF&lr:'
+      - '&f● &7&lᴍᴏᴅᴏ: &bLobby'
+      - '&f● &7&lᴘɪɴɢ: &b%player_ping%'
+      - '&f● &7&lᴘʟᴀʏᴇʀꜱ: &b%server_online_Lobby%'
+      - ''      
+scoreboard-world:
+  'KITPVP':
+    title: '&#FB0000&lW&#ED0000&li&#DE0000&lz&#D00000&lC&#C20000&lr&#B40000&la&#A50000&lf&#970000&lt'
+    lines:
+      - '&8&m+----------------+'
+      - ''
+      - '&#0D00FB&lP&#0D13F2&ll&#0D27E9&la&#0E3AE1&ly&#0E4ED8&le&#0E61CF&lr:'
+      - '&f● &a&lɴɪᴄᴋ: &b%player_name%'
+      - '&f● &e&lᴛɪᴍᴇ: &b%statistic_hours_played%h'
+      - '&f● &4&lᴅᴇᴀᴛʜꜱ: &e%statistic_deaths%'  
+      - ''
+      - '&#0D00FB&lS&#0D13F2&le&#0D27E9&lr&#0E3AE1&lv&#0E4ED8&le&#0E61CF&lr:'
+      - '&f● &7&lᴍᴏᴅᴏ: &bPractice'
+      - '&f● &7&lᴘɪɴɢ: &b%player_ping%'
+      - '&f● &7&lᴘʟᴀʏᴇʀꜱ: &b%server_online_Lobby%'    
+      - ''
+#
+# Scoreboard per permission configuration
+#
+# If permission no exist or is not configured, will use scoreboard section
+#
+# Remember if u use this mode, u need to add permissions to your permission plugin
+# Example: sternalboard.admin, sternalboard.mod, sternalboard.dev, sternalboard.owner
+# Having op will make to see all scoreboards, remember deny nodes in your permission plugin
+scoreboard-permission:
+  'admin':
+    node: 'sternalboard.admin'
+    title: '&b&lSternal&f&lBoard &d&lADMIN'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lADMIN'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+  'mod':
+    node: 'sternalboard.mod'
+    title: '&b&lSternal&f&lBoard &d&lMOD'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lMOD'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+  'dev':
+    node: 'sternalboard.dev'
+    title: '&b&lSternal&f&lBoard &d&lDEV'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lDEV'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+  'owner':
+    node: 'sternalboard.owner'
+    title: '&b&lSternal&f&lBoard &d&lOWNER'
+    lines:
+      - '&8&m+-------------------+'
+      - '      &6&lOWNER'
+      - '&a&l▼ &bData:'
+      - '&f● &7Nick: &b%player_name%'
+      - '&f● &7Rank: &b%vault_rank%'
+      - '&f● &7Coins: &e%vault_eco_balance_formatted%'
+      - ''
+      - '&a&l▼ &bExample:'
+      - '&f● &7Lobby: &b#1'
+      - '&f● &7Ping: &b%player_ping%'
+      - '&f● &7Players: &b%bungee_total%'
+      - ''
+      - '&f● &fIP: &bplay.yournetwork.com'
+#
+# Scoreboard per worldguard regions
+#
+# It will work by searching names for example SPAWN will display an different one
+scoreboard-regions:
+  spawn:
+    title: "&b&lSternal&f6lBoard &d&lSpawn Scoreboard"
+    lines:
+      - "&7You are in the &bSpawn."
+      - "&aExplore the world!"

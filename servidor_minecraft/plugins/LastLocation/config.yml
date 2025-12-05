@@ -1,0 +1,143 @@
+config:
+  plugin-active: true
+  random:
+    x:
+      low: -20000
+      high: 20000
+    z:
+      low: -20000
+      high: 20000
+  teleport-safety:
+    unsafe-materials:
+      __global:
+      - LAVA
+      - WATER
+      - MAGMA_BLOCK
+      - CAMPFIRE
+      - FIRE
+      - SWEET_BERRY_BUSH
+      - CACTUS
+    max-attempts: 5
+  time-thresholds:
+    load-disabled: 800
+    save-disabled: 800
+  blocked-commands:
+  - warp
+  - home
+  - spawn
+  - tp
+  - tppos
+  - tpa
+  - back
+behavior:
+  world:
+    __global:
+      arriving:
+        action: LASTLOCATION
+players:
+  1d190665-56d0-353e-a41a-4bbcb40ebbbb:
+    last-location:
+      lobby:
+        ==: org.bukkit.Location
+        world: Lobby
+        x: 3.2443906100951003
+        y: 62.166109260938214
+        z: -32.3112982799761
+        pitch: 28.812181
+        yaw: 101.37743
+      world:
+        ==: org.bukkit.Location
+        world: world
+        x: 0.0
+        y: 64.0
+        z: 0.0
+        pitch: 26.921778
+        yaw: -178.63446
+      kitpvp:
+        ==: org.bukkit.Location
+        world: KITPVP
+        x: 9.463256062360687
+        y: -41.0
+        z: 357.3757452299906
+        pitch: 11.933669
+        yaw: 87.69626
+  60430fcc-5373-3373-bb6d-8234d6c3ce1f:
+    last-location:
+      lobby:
+        ==: org.bukkit.Location
+        world: Lobby
+        x: 1.7953953617602918
+        y: 60.0
+        z: -30.822041438583963
+        pitch: -2.4321494
+        yaw: 151.90918
+  dd2f036b-8e9c-3d22-91bd-70911a6d2228:
+    last-location:
+      lobby:
+        ==: org.bukkit.Location
+        world: Lobby
+        x: 0.7564487151431413
+        y: 60.7967356006687
+        z: -31.219379755299748
+        pitch: 0.65793115
+        yaw: 179.01314
+      kitpvp:
+        ==: org.bukkit.Location
+        world: KITPVP
+        x: 85.96751413841778
+        y: -55.0
+        z: 349.5379535831746
+        pitch: 7.309083
+        yaw: -162.2752
+      world:
+        ==: org.bukkit.Location
+        world: world
+        x: 557.2078283124928
+        y: 133.0
+        z: 80.66189590352927
+        pitch: 17.918459
+        yaw: -77.28235
+      lobby_nether:
+        ==: org.bukkit.Location
+        world: Lobby_nether
+        x: 78.65492768594103
+        y: 102.0
+        z: -0.8356495793348779
+        pitch: 74.25386
+        yaw: 43.830902
+  a2ac5f59-4685-3e1c-83ea-0fc7e6cb8cc9:
+    last-location:
+      lobby:
+        ==: org.bukkit.Location
+        world: Lobby
+        x: 1.0321931560228328
+        y: 61.0
+        z: -33.36776967219212
+        pitch: 3.320959
+        yaw: 113.318596
+      world:
+        ==: org.bukkit.Location
+        world: world
+        x: 203.36536247854852
+        y: 118.0
+        z: -249.2789709760916
+        pitch: 15.468663
+        yaw: 18.140747
+  2d8dee37-317d-3e03-85a6-d7af71822832:
+    last-location:
+      lobby:
+        ==: org.bukkit.Location
+        world: Lobby
+        x: -0.39481180585532555
+        y: 61.0
+        z: -32.96492261345877
+        pitch: 12.150119
+        yaw: -113.512
+      world:
+        ==: org.bukkit.Location
+        world: world
+        x: 186.48749155158654
+        y: 131.5
+        z: -297.81899110628933
+        pitch: 22.988684
+        yaw: 97.64111
